@@ -1,3 +1,11 @@
+2.3.0 / 2018-06-25
+==================
+
+Support Erlang/OTP 21.0
+
+  * rox_nif: update rustler to latest working version
+  * rox_nif: fix rustler types
+  * rox: update elixir deps
 
 2.2.1 / 2018-01-17
 ==================
