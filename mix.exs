@@ -27,7 +27,7 @@ defmodule Rox.Mixfile do
   defp deps do
     [
       # Rust NIFs
-      {:rustler, "~> 0.18"},
+      {:rustler, git: "https://github.com/rusterlium/rustler", sparse: "rustler_mix"},
 
       # Doc generation
       {:ex_doc, "~> 0.18", only: :dev},
